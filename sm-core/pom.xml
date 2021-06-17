@@ -18,15 +18,15 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<geoip2.version>2.7.0</geoip2.version>
+		<geoip2.version>2.14.0</geoip2.version>
 		<javax.inject.version>1</javax.inject.version>
 		<javax.el.version>2.2.4</javax.el.version>
-		<drools.version>7.20.0.Final</drools.version>
+		<drools.version>7.21.0.Final</drools.version>
 		<spring.vault.version>1.1.3.RELEASE</spring.vault.version>
 		<coverage.lines>.00</coverage.lines>
 		<coverage.branches>.00</coverage.branches>
 		<!-- RODO change -->
-		<shopizer.version>2.5.0</shopizer.version>
+		<shopizer.version>2.10.0</shopizer.version>
 	</properties>
 
 	<dependencies>
@@ -172,21 +172,21 @@
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-s3</artifactId>
-			<version>1.11.538</version>
+			<version>1.11.882</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-ses -->
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-ses</artifactId>
-			<version>1.11.538</version>
+			<version>1.11.546</version>
 		</dependency>
 		
 		<!-- google cloud storage -->
 		<dependency>
 		  <groupId>com.google.cloud</groupId>
 		  <artifactId>google-cloud-storage</artifactId>
-		  <version>1.74.0</version>
+		  <version>1.78.0</version>
 		  <exclusions>
 		  	<exclusion>
 		  		<groupId>com.google.guava</groupId>
